@@ -1,0 +1,12 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+    <h2>Добавить заметку</h2>
+    <form action = "{{ url_for('add_note') }}" method = "POST">
+        <input type = "text" name = "note" placeholder = "Текст заметки">
+        <input type = "date" name = "date">
+        <button>Добавить</button>
+    </form>
+
+{% endblock %}

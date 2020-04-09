@@ -1,0 +1,25 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+    <h2>Всего заметок {{ rows|length }}</h2>
+    <hr>
+<div id = "stable">
+    <table border="1">
+        <thead>
+            <tr align = "center">
+                <th>Дата</th>
+                <th>Заметка</th>
+            </tr>
+        </thead>
+        <tbody id = "styke">
+            {% for row in rows %}
+            <tr>
+                <td>{{ row.0 }}</td>
+                <td>{{ row.1 }}</td>
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+</div>
+{% endblock %}

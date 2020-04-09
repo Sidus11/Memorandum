@@ -1,0 +1,67 @@
+#menu {
+    height: 61px;
+    width: 70%;
+    color: #eee;
+    background-color: #3c3c3c;
+    font-size: 24px;
+    margin: 0 15vw;
+    padding: 10px 20px;
+    box-shadow: 10px 5px lightgrey;
+}
+
+div > a {
+    color: #eee
+}
+
+
+
+#styletable {
+    background-color: Black;
+    width: 61px;
+}
+
+
+
+#styke {
+    background: darkgrey; /* Цвет фона */
+    color: #333;
+}
+
+
+
+
+#styke tr:hover {
+    background-color: lightgrey;
+    width: 61px;
+
+}
+
+
+
+#hi {
+    height: 37%;
+    width: 81%;
+    padding: 3px;
+    padding-left: 11px;
+    color: #0d561f;
+    background-color: #c6e8ce;
+    border-radius: 3px;
+    margin-left: 11px;
+
+
+
+}
+
+
+
+#stable {
+    margin-left: 11px;
+
+}
+
+
+
+
+
+
+
